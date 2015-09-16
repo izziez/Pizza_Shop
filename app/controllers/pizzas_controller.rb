@@ -1,6 +1,10 @@
 class PizzasController < ApplicationController
   before_action :set_pizza, only: [:show, :edit, :update, :destroy]
 
+def about
+  
+end
+
 def home
 end
 
